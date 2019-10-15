@@ -1,14 +1,14 @@
 ;(function () {
 	
 	'use strict';
-
-
-
+	
 	// iPad and iPod detection	
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
 	};
 
+	console.log(navigator.platform);
+	
 	var isiPhone = function(){
 	    return (
 			(navigator.platform.indexOf("iPhone") != -1) || 
